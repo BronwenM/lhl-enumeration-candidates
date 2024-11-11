@@ -5,5 +5,6 @@ require './candidates'
 require './filters'
 
 ## Your test code can go here
-
-pp @candidates
+# puts qualified_candidates(@candidates)
+puts ordered_by_qualifications(@candidates)
+# pp @candidates
